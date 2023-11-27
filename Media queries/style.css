@@ -1,0 +1,55 @@
+
+body
+    {
+    background-color:white;
+ 
+  
+
+    }
+h1, p, footer {
+    color: black;
+    
+}
+
+button{
+    background-color: black;
+    color:white;
+    padding: 6px 30px;
+    
+}
+img{
+    margin-top:-20px;
+}
+
+.flex-container{
+    display:flex;
+    margin-top:100px;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    
+   height:700px;
+    width:500px;
+    background-color:yellow;
+}
+@media screen and (min-width:900px){
+    .flex-container{
+        display:flex;
+        margin-top:200px;
+      
+        flex-direction:row;
+        width:800px;
+        height:600px;
+        
+
+       background-color:yellow;
+    }
+
+    h1, p, footer {
+        color: black;
+    }
+   button{
+    text-align:center;
+   }
+}
